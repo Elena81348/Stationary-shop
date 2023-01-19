@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+body{
+background-color:#EEEEEE ;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
+  background-color: #00ADB5;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+}
+.link{
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #222831;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.product-card {
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 16%;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn {
+  background-color: #393E46;
   color: white;
+  padding: 10px;
+  border: none;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+button {
+  margin: 15px;
+  
+}
+h1{
+  margin-top: 50px;
+  font-size: 35px;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.photo{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.cta{
+  border: none;
+  font-size: 25px;
+}
+p{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  margin: 15px;
+}
+.showMore{
+  border: none;
+  font-size: 18px;
+  color: #0071c2;
+}
+.contact{
+  margin-left: 50px;
+}
+a{
+  margin-left: 10px;
+  text-decoration: none;
+  color: #393E46;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
