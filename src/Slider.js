@@ -1,10 +1,10 @@
 import { dataTwo } from "./dataTwo";
 import{useState} from "react";
 
-function Slider({imageProps}){
+function Slider(){
 
 const [photo,setPhoto]=useState(0);
-const{ image}=dataTwo[photo];
+
 
     const previousPhoto=()=>{
         setPhoto((photo=>{
@@ -27,7 +27,7 @@ const{ image}=dataTwo[photo];
 return<div>
      <div className="container">
             <button className="cta" onClick={previousPhoto}>◀︎</button>
-            <img src={image} width='600px'alt='art' />
+            <img src={dataTwo[photo]} width='600px'alt='art' />
             <button className="cta" onClick={nextPhoto}>▶︎</button>
     
     </div>

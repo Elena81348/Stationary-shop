@@ -6,7 +6,6 @@ function Buttons({filteredItems}){
             <button className="btn" onClick={()=>filteredItems('marker')}>Markers</button>
             <button className="btn" onClick={()=>filteredItems('notebook')}>Notebook</button>
             <button className="btn" onClick={()=>filteredItems('paint')}>Paints</button>
-            
         </div>
     )
 }
